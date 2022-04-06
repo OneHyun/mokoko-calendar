@@ -3,11 +3,12 @@ const path = require("path");
 
 const createWindow = () => {
     const window = new BrowserWindow({
-        width: 720,
-        height: 1080,
+        width: 560,
+        height: 720,
         resizable: false,
         icon: path.join(__dirname, 'assets/icons/png/icon.png')
     });
+    window.setMenuBarVisibility(false);
     window.loadFile("index.html");
     const template = [
         {
@@ -15,8 +16,9 @@ const createWindow = () => {
             submenu: []
         },
         {
-            label: "😃",
-            sument: []
+            label: "😃 Size",
+            sument: [
+            ]
         }
     ];
 

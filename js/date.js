@@ -42,7 +42,10 @@ function  thisMonDatesRender(thisDate, currentMonth, currentMonthName){
         holidayChk = ("00"+currentMonth.toString()).slice(-2) +("00"+i.toString()).slice(-2);
         if(holidays.includes(holidayChk))
         {
-            calendarDates.innerHTML = `${calendarDates.innerHTML}<div class="date current theme-${currentMonthName}">${i}<div>${holidaysInfo[holidayChk]  === undefined ? "" : holidaysInfo[holidayChk]}</div></div>`;
+            if(holidaysInfo[holidayChk] !== undefined && holidaysInfo[holidayChk].length >= 10)
+                calendarDates.innerHTML = `${calendarDates.innerHTML}<div class="date current theme-${currentMonthName}">${i}<div style="font-size: 10px;">${holidaysInfo[holidayChk]  === undefined ? "" : holidaysInfo[holidayChk]}</div></div>`;
+            else
+                calendarDates.innerHTML = `${calendarDates.innerHTML}<div class="date current theme-${currentMonthName}">${i}<div style="font-size: 12px;">${holidaysInfo[holidayChk]  === undefined ? "" : holidaysInfo[holidayChk]}</div></div>`;
             continue;
         }
         else if((calendarDates.childElementCount%7) == 0 || (calendarDates.childElementCount%7) == 6)
