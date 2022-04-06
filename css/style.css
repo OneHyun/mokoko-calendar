@@ -1,0 +1,158 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* components */
+@import "./variables.css";
+@import "./settheme.css";
+
+/* animations */
+@import "./animations.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Jua', sans-serif;
+    font-weight: 600;
+}
+
+img{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.calendar {
+    min-width: 300px;
+    max-width: 400px;
+    margin: 50px;
+}
+
+.calendar-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.calendar-header__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.calendar-header__title-logo{
+    max-width: 75px;
+    max-height: 75px;
+    margin-right: 10px;
+}
+.calendar-header__title-img{
+    max-width: 250px;
+}
+.year-month {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.year-month span:first-child{
+    font-size: 1.6rem;
+}
+.year-month span:last-child{
+    font-size: 1.4rem;
+}
+
+.navi-btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navi-btn > img{
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.go-prev > img{
+    transform : rotate(180deg);
+}
+.days {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0.5rem 0;
+    justify-content: center;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+.day {
+    width: calc(100% / 7);
+    text-align: center;
+    color: white;
+}
+
+.dates {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 500px;
+    max-width: 800px;
+    border: 0;
+}
+
+.date {
+    width: calc(100% / 7);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.prev,
+.next{
+    color: #868385;
+}
+.splash{
+    animation-name: fadeOut;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+.splash-screen{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash-screen__img{
+    min-width: 500px;
+    max-width: 100%;
+    min-height: 600px;
+    max-height: 100%;
+}
+
+.bg-img_cover {
+    position:absolute;
+    z-index: -2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    min-width: 550px;
+}
+
+.bg-img{
+    max-width: 100%;
+}

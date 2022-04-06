@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokoko calendar</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <button class="navi-btn go-prev" onclick="movePrevMonth()">
+        <img src="./resource/img/arrow.png"/>
+    </button>
+    <div class="calendar">
+        <div class="bg-img_cover">
+            <img class="bg-img" src="./resource/img/bg.png" alt=""/>
+        </div>
+        <div class="calendar-header">
+            <div class="calendar-header__title">
+                <img class="calendar-header__title-logo" src="./resource/img/titlelogo/April_num.png" alt="">
+                <div class="year-month">
+                    <span>2022</span>
+                    <span class="calendar-header__title-month">April</span>
+                </div>
+            </div>
+            <img class="calendar-header__title-img" src="./resource/img/titlelogo/April_img.png" alt="">
+        </div>
+        <div class="calendar-main">
+            <div class="days">
+                <div class="day">SUN</div>
+                <div class="day">MON</div>
+                <div class="day">TUE</div>
+                <div class="day">WED</div>
+                <div class="day">THU</div>
+                <div class="day">FRI</div>
+                <div class="day">SAT</div>
+            </div>
+            <div class="dates"></div>
+        </div>
+    </div>
+    <button class="navi-btn go-next" onclick="moveNextMonth()">
+        <img src="./resource/img/arrow.png"/>
+    </button>
+    <div class="splash-screen">
+        <img class="splash-screen__img" />
+    </div>
+    <script src="./js/data.js"></script>
+    <script src="./js/date.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0%{ visibility: visible; opacity:0 ; }
+    10%{ visibility: visible; opacity: 1; }
+    70%{ visibility: visible; opacity: 1; }
+    100%{ visibility: collapse; opacity: 0; }
+}
+
+@-webkit-keyframes fadeIn {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+@-webkit-keyframes fadeOut {
+    0%{ visibility: visible; opacity:0 ; }
+    10%{ visibility: visible; opacity: 1; }
+    70%{ visibility: visible; opacity: 1; }
+    100%{ visibility: collapse; opacity: 0; }
+}

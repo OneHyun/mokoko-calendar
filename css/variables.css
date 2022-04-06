@@ -1,0 +1,27 @@
+:root{
+    --theme-January: #F3954D;
+    --theme-February: #CF936D;
+    --theme-March: #EB7E8F;
+    --theme-April: #8EBF54;
+    --theme-May: #CF5F4B;
+    --theme-June: #8696C3;
+    --theme-July: #9DC664;
+    --theme-August: #86B5C3;
+    --theme-September: #84749E;
+    --theme-October: #F3954D;
+    --theme-November: #A07C62;
+    --theme-December: #D14544;
+
+    --theme-January-gradate: linear-gradient(#fff2c4, #fff7dc);
+    --theme-February-gradate: linear-gradient(#ffd9c6, #ffeee6);
+    --theme-March-gradate: linear-gradient(#ffd0d8, #ffe9ed);
+    --theme-April-gradate: linear-gradient(#e0ffb9, #f7ffec);
+    --theme-May-gradate: linear-gradient(#ffd0d7, #FCE6E9);
+    --theme-June-gradate: linear-gradient(#c8e0ff, #e1eeff);
+    --theme-July-gradate: linear-gradient(#c9ecba, #e5ffda);
+    --theme-August-gradate: linear-gradient(#c3fbff, #dcfdff);
+    --theme-September-gradate: linear-gradient(#d4b7ff, #e7d9ff);
+    --theme-October-gradate: linear-gradient(#ffcba3, #ffe5d2);
+    --theme-November-gradate: linear-gradient(#ceaa90, #ddd1c8);
+    --theme-December-gradate: linear-gradient(#ffb7b7, #f3d6d6);
+}

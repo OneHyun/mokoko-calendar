@@ -1,0 +1,59 @@
+.theme-January{ color: var(--theme-January); }
+.days.theme-January{ background-color: var(--theme-January); }
+.theme-January-bg > .date { border-bottom: 2px solid var(--theme-January);}
+body.theme-January-bg{ background: var(--theme-January-gradate); }
+
+.theme-February{ color: var(--theme-February); }
+.days.theme-February{ background-color: var(--theme-February); }
+.theme-February-bg > .date { border-bottom: 2px solid var(--theme-February);}
+body.theme-February-bg{ background: var(--theme-February-gradate); }
+
+.theme-March{ color: var(--theme-March); }
+.days.theme-March{ background-color: var(--theme-March); }
+.theme-March-bg > .date { border-bottom: 2px solid var(--theme-March);}
+body.theme-March-bg{ background: var(--theme-March-gradate); }
+
+.theme-April{ color: var(--theme-April); }
+.days.theme-April{ background-color: var(--theme-April); }
+.theme-April-bg > .date { border-bottom: 2px solid var(--theme-April);}
+body.theme-April-bg{ background: var(--theme-April-gradate); }
+
+.theme-May{ color: var(--theme-May); }
+.days.theme-May{ background-color: var(--theme-May); }
+.theme-May-bg > .date { border-bottom: 2px solid var(--theme-May);}
+body.theme-May-bg{ background: var(--theme-May-gradate); }
+
+.theme-June{ color: var(--theme-June); }
+.days.theme-June{ background-color: var(--theme-June); }
+.theme-June-bg > .date { border-bottom: 2px solid var(--theme-June);}
+body.theme-June-bg{ background: var(--theme-June-gradate); }
+
+.theme-July{ color: var(--theme-July); }
+.days.theme-July{ background-color: var(--theme-July); }
+.theme-July-bg > .date { border-bottom: 2px solid var(--theme-July);}
+body.theme-July-bg{ background: var(--theme-July-gradate); }
+
+.theme-August{ color: var(--theme-August); }
+.days.theme-August{ background-color: var(--theme-August); }
+.theme-August-bg > .date { border-bottom: 2px solid var(--theme-August);}
+body.theme-August-bg{ background: var(--theme-August-gradate); }
+
+.theme-September{ color: var(--theme-September); }
+.days.theme-September{ background-color: var(--theme-September); }
+.theme-September-bg > .date { border-bottom: 2px solid var(--theme-September);}
+body.theme-September-bg{ background: var(--theme-September-gradate); }
+
+.theme-October{ color: var(--theme-October); }
+.days.theme-October{ background-color: var(--theme-October); }
+.theme-October-bg > .date { border-bottom: 2px solid var(--theme-October);}
+body.theme-October-bg{ background: var(--theme-October-gradate); }
+
+.theme-November{ color: var(--theme-November); }
+.days.theme-November{ background-color: var(--theme-November); }
+.theme-November-bg > .date { border-bottom: 2px solid var(--theme-November);}
+body.theme-November-bg{ background: var(--theme-November-gradate); }
+
+.theme-December{ color: var(--theme-December); }
+.days.theme-December{ background-color: var(--theme-December); }
+.theme-December-bg > .date { border-bottom: 2px solid var(--theme-December);}
+body.theme-December-bg{ background: var(--theme-December-gradate); }

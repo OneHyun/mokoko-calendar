@@ -1,0 +1,19 @@
+{
+  "name": "calendar_desktopapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "OneHyun",
+  "productName": "Mokoko-Calendar",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "electron": "^18.0.2"
+  }
+}
